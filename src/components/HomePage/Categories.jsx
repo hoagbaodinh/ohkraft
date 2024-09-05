@@ -31,30 +31,26 @@ const Categories = () => {
         <div className="cateContent">
           <div className="row">
             <div className="col-6 cateItem">
-              <img
-                src={cate1}
-                alt="iphone"
-                onClick={() => handleClick('iphone')}
-              />
+              <img src={cate1} alt="xmas" onClick={() => handleClick('xmas')} />
             </div>
             <div className="col-6 cateItem">
-              <img src={cate2} alt="mac" onClick={() => handleClick('mac')} />
+              <img src={cate2} alt="all" onClick={() => handleClick('all')} />
             </div>
             <div className="col-4 cateItem">
-              <img src={cate3} alt="ipad" onClick={() => handleClick('ipad')} />
+              <img src={cate3} alt="gem" onClick={() => handleClick('gem')} />
             </div>
             <div className="col-4 cateItem">
               <img
                 src={cate4}
-                alt="watch"
-                onClick={() => handleClick('watch')}
+                alt="necklace"
+                onClick={() => handleClick('necklace')}
               />
             </div>
             <div className="col-4 cateItem">
               <img
                 src={cate5}
-                alt="airpods"
-                onClick={() => handleClick('airpod')}
+                alt="shell"
+                onClick={() => handleClick('shell')}
               />
             </div>
           </div>

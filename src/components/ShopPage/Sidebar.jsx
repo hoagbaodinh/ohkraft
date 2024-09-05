@@ -47,14 +47,6 @@ const Sidebar = () => {
             >
               For Her
             </span>
-            <span
-              className={`sidebarLink ${
-                category === 'mac' ? 'activeCate' : ''
-              }`}
-              onClick={() => handleClick('mac')}
-            >
-              Mac
-            </span>
           </div>
         </div>
 
